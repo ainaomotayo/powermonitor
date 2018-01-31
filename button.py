@@ -22,8 +22,8 @@ while True:
                 message = """PREZENTA TENSIUNE - PARC ULMU  """ + time.strftime("%c")
                 msg = MIMEText(message)
                 msg['subject'] = 'Alerta HUPA ULMU - Stop'
-                msg['from'] = 'hupa@mondoit.ro'
-                msg['to'] = 'recipient@mondoit.ro'
+                msg['from'] = 'xx@xxx.com'
+                msg['to'] = 'xx@xxx.com'
                 # send mail
                 #s = smtplib.SMTP('smtp.mailgun.org:25')
                 s = smtplib.SMTP('smtp.mailgun.org',587)
@@ -37,8 +37,8 @@ while True:
                 message = """LIPSA TENSIUNE - PARC ULMU """ + time.strftime("%c")
                 msg = MIMEText(message)
                 msg['subject'] = 'Alerta HUPA ULMU - Start'
-                msg['from'] = 'hupa@mondoit.ro'
-                msg['to'] = 'recipient@mondoit.ro'
+                msg['from'] = 'xx@xxx.com'
+                msg['to'] = 'xx@xxx.com'
                 # send mail
                 #s = smtplib.SMTP('smtp.mailgun.org:25')
                 s = smtplib.SMTP('smtp.mailgun.org',587)
